@@ -11,7 +11,7 @@ body, html {
 }
 .parallax {
   /* The image used */
-  background-image: url("../static/bg2.jpg");
+  background-image: url("../static/php-hd.jpg");
   background-color: #222;
   /* Full height */
   height: 80%;
@@ -104,7 +104,7 @@ body, html {
 }
 
 .info	{
-	
+	padding-top: 5em;
 }
 
 .card	{
@@ -116,15 +116,9 @@ body, html {
 
 h3{
 	font-size: 3em;
-	text-shadow:
-    0 0 5px #fff,
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px rgb(248, 127, 79),
-    0 0 80px rgb(248, 127, 79),
-    0 0 90px rgb(248, 127, 79),
-    0 0 100px rgb(248, 127, 79),
-    0 0 150px rgb(248, 127, 79);
+	background: -webkit-linear-gradient(red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h1{
 	font-size: 4em;
@@ -134,7 +128,16 @@ h1{
 	font-family: 'Raleway', sans-serif;
     /*padding: 1em 2em;*/
    /* background: #222;*/
-    color: rgb(247, 241, 241);
+   background: -webkit-linear-gradient(green, blue);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 	/*font-weight: 200;
 	font-size: 5em;*/
+}
+
+.footer   {
+	background-color: rgb(236, 235, 235);
+	font: 1em sans-serif;
+	padding-top: 3em;
+	padding-bottom: 1em;
 }
