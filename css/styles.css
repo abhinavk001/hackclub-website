@@ -25,7 +25,7 @@ body, html {
 
 
 .fly-in-text {
-	font-size: 20px;
+	font-size: 15px;
 	list-style: none;
 	position: absolute;
 	left: 50%;
@@ -69,9 +69,9 @@ body, html {
 		font-size: 3em;
 		text-align: center;
         margin: 0 auto;
-}
 	}
 }
+
 
 .fly-in-text li:last-child {
 	margin-right: 0;
