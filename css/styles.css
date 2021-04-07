@@ -12,6 +12,7 @@ body, html {
 .parallax {
   /* The image used */
   background-image: url("../static/bg2.jpg");
+  background-color: #222;
   /* Full height */
   height: 80%;
 
@@ -22,7 +23,9 @@ body, html {
   background-size: cover;
 }
 
+
 .fly-in-text {
+	font-size: 20px;
 	list-style: none;
 	position: absolute;
 	left: 50%;
@@ -98,4 +101,40 @@ body, html {
 }
 .fly-in-text.hidden li:nth-child(4) {
 	transform: translateX(30px) translateY(200px);
+}
+
+.info	{
+	
+}
+
+.card	{
+	font-family: sans-serif;
+	background-color: black;
+	margin: 1em;
+	color: rgb(228, 222, 222);
+}
+
+h3{
+	font-size: 3em;
+	text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(248, 127, 79),
+    0 0 80px rgb(248, 127, 79),
+    0 0 90px rgb(248, 127, 79),
+    0 0 100px rgb(248, 127, 79),
+    0 0 150px rgb(248, 127, 79);
+}
+h1{
+	font-size: 4em;
+}
+.motto{
+	padding: 10em 1em 10em 6em;
+	font-family: 'Raleway', sans-serif;
+    /*padding: 1em 2em;*/
+   /* background: #222;*/
+    color: rgb(247, 241, 241);
+	/*font-weight: 200;
+	font-size: 5em;*/
 }
