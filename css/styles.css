@@ -106,7 +106,12 @@ body, html {
 .info	{
 	padding-top: 5em;
 }
-
+.intro{
+	color:aliceblue;
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 2em;
+	padding-bottom: 2em;
+}
 .card	{
 	font-family: sans-serif;
 	background-color: black;
@@ -141,3 +146,7 @@ h1{
 	padding-top: 3em;
 	padding-bottom: 1em;
 }
+.center {
+	text-align: center;
+  }
+  
